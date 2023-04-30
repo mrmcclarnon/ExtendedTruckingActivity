@@ -129,9 +129,9 @@ var game = new Phaser.Game(gamewidth, gameheight, Phaser.AUTO, '', { preload: pr
 
 
 function preload() {
-	game.load.image('track', 'track3.jpg');
-	game.load.image('truck', 'redtrucktrans.png');
-	game.load.image('greentruck', 'greentrucktrans.png');
+	game.load.image('track', 'track3-min.jpg');
+	game.load.image('truck', 'redtrucktrans-min.png');
+	game.load.image('greentruck', 'greentrucktrans-min.png');
 }
 
 function create() {
